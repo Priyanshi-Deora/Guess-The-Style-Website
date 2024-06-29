@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Style!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="card">
+        <h1>Guess The Style!</h1>
+        <p>
+            <b>Hint:</b> A type of style
+        </p>
+        <p id="displayWord"></p>
+        <p> Guess one letter:
+
+            <input type="text"
+                mexlength="1"
+                id="letter-input">
+        </p>
+        <button onclick="guessLetter()">
+            Submit
+        </button>
+    </div>
+</body>
+</html>
